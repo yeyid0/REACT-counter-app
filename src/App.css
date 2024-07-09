@@ -1,0 +1,38 @@
+.App {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content:center ;
+  background-color: rgb(32, 30, 28);
+}
+
+h1{
+  color: aliceblue;
+}
+
+button {
+  padding: 20% 30%;
+  color: antiquewhite;
+  background-color: black;
+  border: 5px aliceblue solid;
+  border-radius: 30%;
+  font-size: 30px;
+}
+
+.butons{
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  align-items: center;
+  justify-content:center ;
+  gap: 20px;
+}
+
+#sonuc {
+  margin: 30px;
+  text-align: center;
+  font-size: 30px;
+  color: aliceblue;
+}
